@@ -20,9 +20,7 @@ head
       link(rel='alternate', type=feed_type, href=url_for(config.feed.path))
       
     if theme.show_ad_post
-      script(async='', src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
-      script.
-        (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-" + '#{theme.ad_client_id}', enable_page_level_ads: true});
+      script(async='', src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', data-ad-client='#{theme.ad_client_id}')
 
     if theme.google_analytics
       script.
