@@ -27,6 +27,8 @@ valine: ## https://valine.js.org
   pageSize: 10 ## Number of comments per page.
   guest_info: nick,mail,link ## Attributes of reviewers.
 
+show_ad_post: false ## Use Google Adsense, true/false
+ad_client_id: ## Your Google Adsense Id
 google_search: true ## Use Google search, true/false.
 baidu_search: false ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
